@@ -83,7 +83,7 @@ nav ul li:hover {
 .card {
     padding: 10px 0;
     color: #fff;
-    background: rgba(97, 80, 32, 0.527);
+    background: rgb(21, 91, 94);
 }
 
 .card .one {
@@ -133,7 +133,7 @@ nav ul li:hover {
 .links {
     position: absolute;
     background: #fff;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     /*opacity: 0.9;
     */top: 0;

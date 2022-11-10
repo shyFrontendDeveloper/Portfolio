@@ -16,7 +16,7 @@ a, li{
 
 .hero {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background: goldenrod;
 }
 
@@ -110,7 +110,7 @@ nav ul li:hover {
 .links {
     position: absolute;
     background: #fff;
-    height: 149vh;
+    height: 100vh;
     width: 100%;
     /*opacity: 0.9;
     */top: 0;
