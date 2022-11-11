@@ -9,6 +9,11 @@ body {
     height: 100vh;
 }
 
+.wrapper {
+    overflow-y: hidden;
+    position: relative;
+}
+
 a, li{
     text-decoration: none;
     color: #000;

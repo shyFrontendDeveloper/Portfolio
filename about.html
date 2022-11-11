@@ -12,39 +12,41 @@
     <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
 </head>
 <body>
-    <section class="hero">
-        <div class="content">
-            <nav>
-                <div class="logo">
-                    <h1>AV</h1>
+    <div class="wrapper">
+        <section class="hero">
+            <div class="content">
+                <nav>
+                    <div class="logo">
+                        <h1>AV</h1>
+                    </div>
+                    
+                    <div class="links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()" id="close-fa"></i>
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="project.html">project</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+    
+                <div class="about">
+                    <div class="header">
+                        <h1>Just A little</h1>
+                    </div>
+                    <div class="img">
+                        <img src="./img/AboutImg.jpeg" alt="">
+                    </div>
+                    <div class="about-content">
+                        <p>A young, hardworking, resourceful and dedicated graduate, with proven success in managing activities that cuts across different sectors. An outstanding builder, equip with the ability to interpret architectural drawings. A motivated frontend web developer with vast knowledge of HTML, CSS and JavaScript. Excellent communicator, having great customer relations, and a keen eye for details. A computer enthusiast.</p>
+                    </div>
+                    <a href="09068695376">BeeP mE</a>
                 </div>
-                
-                <div class="links" id="navLinks">
-                    <i class="fa fa-times" onclick="hideMenu()" id="close-fa"></i>
-                    <ul>
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="project.html">project</a></li>
-                        <li><a href="about.html">about</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                    </ul>
-                </div>
-                <i class="fa fa-bars" onclick="showMenu()"></i>
-            </nav>
-
-            <div class="about">
-                <div class="header">
-                    <h1>Just A little</h1>
-                </div>
-                <div class="img">
-                    <img src="./img/AboutImg.jpeg" alt="">
-                </div>
-                <div class="about-content">
-                    <p>A young, hardworking, resourceful and dedicated graduate, with proven success in managing activities that cuts across different sectors. An outstanding builder, equip with the ability to interpret architectural drawings. A motivated frontend web developer with vast knowledge of HTML, CSS and JavaScript. Excellent communicator, having great customer relations, and a keen eye for details. A computer enthusiast.</p>
-                </div>
-                <a href="09068695376">BeeP mE</a>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <script src="app.js"></script>
 </body>

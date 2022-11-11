@@ -7,7 +7,11 @@ body {
     font-family: 'Rubik Bubbles', cursive;
     background: goldenrod;
     height: 100vh;
-    position: fixed;
+}
+
+.wrapper {
+    overflow-y: hidden;
+    position: relative;
 }
 
 a, li{

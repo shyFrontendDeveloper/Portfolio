@@ -3,11 +3,15 @@
     padding: 0;
 }
 
+.wrapper {
+    overflow-y: hidden;
+    position: relative;
+}
+
 body {
     font-family: 'Rubik Bubbles', cursive;
     background: goldenrod;
     height: 100vh;
-    position: fixed;
 }
 
 a, li{
