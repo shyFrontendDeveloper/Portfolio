@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -8,8 +8,6 @@ body {
     background: goldenrod;
     height: 100vh;
     position: fixed;
-    /* overscroll-behavior-y: contain;
-    overflow-y: auto; */
 }
 
 a, li{
@@ -115,8 +113,8 @@ nav ul li a:hover {
     background: #fff;
     height: 100vh;
     width: 100%;
-    /*opacity: 0.9;
-    */top: 0;
+    opacity: 0.9;
+    top: 0;
     right: -100%;
     text-align: left;
     z-index: 2;
@@ -147,11 +145,6 @@ nav #close-fa {
     margin: 30px 10.78%;
 }
 
-
-/* nav .fa {
-    display: inline-block;
-} */
-
 nav #close-fa {
     display: inline-block;
 }
@@ -181,4 +174,4 @@ nav ul li {
     nav ul li {
         margin: 40px;
     }
-}
+} */
