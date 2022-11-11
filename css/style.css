@@ -7,6 +7,9 @@ body {
     font-family: 'Rubik Bubbles', cursive;
     background: goldenrod;
     height: 100vh;
+    position: fixed;
+    /* overscroll-behavior-y: contain;
+    overflow-y: auto; */
 }
 
 a, li{
