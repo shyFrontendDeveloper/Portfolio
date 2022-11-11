@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -21,7 +20,8 @@
                     </div>
                             
                     <div class="links" id="navLinks">
-                        <i class="fa fa-times" onclick="hideMenu()" id="close-fa"></i>
+                        <i onclick="hideMenu()" id="close-fa">
+                            <img src="./icon/close.png" alt=""></i>
                         <ul>
                             <li><a href="index.html">home</a></li>
                             <li><a href="project.html">project</a></li>
@@ -29,7 +29,8 @@
                             <li><a href="contact.html">contact</a></li>
                         </ul>
                     </div>
-                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                    <i onclick="showMenu()" id="open-fa">
+                        <img src="./icon/menu.png" alt=""></i>
                 </nav>
     
                 <section class="project">
